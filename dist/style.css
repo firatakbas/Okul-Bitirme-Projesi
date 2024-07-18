@@ -1,0 +1,63 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.sidebar {
+    max-width: 250px;
+    /* padding: 25px; */
+    background-color: white;
+}
+
+.sidebar .nav-item:hover {
+    /* background-color: gray; */
+    transition: all .3s ease-out;
+    background-color: #fff;
+}
+
+.sidebar .nav-item:hover a {
+    color: black !important;
+}
+
+.navbar {
+    font-weight: bold;
+}
+
+.navbar .exit:hover {
+    color: red !important;
+}
+
+main {
+    overflow-y: scroll;
+    height: 100vh;
+    background-color: #fff;
+}
+
+/* d2e9ff */
+
+main .navbar {
+    padding: 25px;
+    /* background-color: gray; */
+    color: #fff;
+}
+
+main .content {
+    padding: 25px;
+}
+
+.swal2-popup {
+    font-size: 12px !important;
+    /* Varsayılan boyutu ayarlayın */
+}
+
+.btn:hover {
+    transition: all .3s ease-out;
+    opacity: .7;
+}
